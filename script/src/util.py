@@ -1,7 +1,7 @@
 
 from re import A
-from client import RestClient
-from aptos_sdk.client import FaucetClient
+from aptos_sdk.async_client import RestClient
+from aptos_sdk.async_client import FaucetClient
 import os
 import sys
 from constants import NODE_URL, BATCH_NUMBER, FAUCET_URL, MODE

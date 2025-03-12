@@ -4,7 +4,8 @@ from typing import Any, Dict, List, Optional
 import httpx
 
 from aptos_sdk.account import Account
-from aptos_sdk.account_address import AccountAddress
+from aptos_sdk.account_address import AccountAddress 
+
 
 from aptos_sdk.bcs import Serializer
 from transactions import (EntryFunction, TransactionPayload)
@@ -102,8 +103,11 @@ class RestClient(client.RestClient):
         self, 
         account: Account, 
         name: str, 
-        wl: list([AccountAddress]), 
-        sl: list([int])
+      
+
+wl: list[AccountAddress],
+sl: list[int]
+
     ) -> str:
         "Add wl into the whitelist with the supply up to sl."
         transaction_arguments = [

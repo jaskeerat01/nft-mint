@@ -3,22 +3,22 @@
         "solution": "pinata",
         "pinata": {
             "pinataApi": "https://api.pinata.cloud/pinning/pinFileToIPFS",
-            "pinataPublicKey": "caf083c32d25b6341e1f",
-            "pinataSecretKey": "51fa3982ec3245d1c56f02c6d55e425bc8ade0ffc1eb117e93bb09ec1a517d25"
+            "pinataPublicKey": "d9dd4db403e87b0e5c43",
+            "pinataSecretKey": "236188c7fd35fc485614b5d2ded38a5de22425986a34ec0787b0bf2fc0270ab7"
         },
         "arweave": {
             "keyfilePath": "/Users/Shared/arweave-keyfile.json"
         }
     },
     "candymachine": {
-        "cmPublicKey": "0xfadbeab921d95f08d2499f674e7ef4f207e57aa063b690399b19162a6080a698",
-        "cmPrivateKey": "0xff9bb002e70e4a0824a1561894299359fd5241b9c9bdf4cd6550a8dd6c1f359d"
+        "cmPublicKey": "",
+        "cmPrivateKey": ""
     },
     "collection": {
-        "assetDir": "/Users/Shared/assets/images",
-        "metadataDir": "/Users/Shared/assets/metadata",
-        "collectionName": "Test101",
-        "collectionDescription": "placeholder",
+        "assetDir": "/Aptos-NFT-Mint/images",
+        "metadataDir": "/Aptos-NFT-Mint/metadata",
+        "collectionName": "GitchainCollection",
+        "collectionDescription": "This is my nft rewards collection",
         "collectionCover": "https://cloudflare-ipfs.com/ipfs/QmWHRdp9svU916CMBicNnFn8CZbYHKV5CK9fcrRteNVJMz",
         "collectionSize": 10,
         "maxMintPerWallet": 100,

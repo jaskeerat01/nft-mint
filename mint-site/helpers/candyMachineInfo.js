@@ -1,6 +1,6 @@
-export const candyMachineAddress = "0xaae2fdba212b79cac0559a232064e22da1340c1435728bbca0d881a4d84d6361";
+export const candyMachineAddress = "0xe6f2fe2240e0739766ae9506d7ed2de5b2c744f855c1d25259c0ee7530bf577c";
 
-export const collectionName = "Test101"; // Case sensitive!
+export const collectionName = "GitchainCollection"; // Case sensitive!
 export const MaxMint = 3
 export const COLLECTION_SIZE = 10 
 
