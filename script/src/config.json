@@ -3,23 +3,23 @@
         "solution": "pinata",
         "pinata": {
             "pinataApi": "https://api.pinata.cloud/pinning/pinFileToIPFS",
-            "pinataPublicKey": "d9dd4db403e87b0e5c43",
-            "pinataSecretKey": "236188c7fd35fc485614b5d2ded38a5de22425986a34ec0787b0bf2fc0270ab7"
+            "pinataPublicKey": "34a636fcbb714b96ddf5",
+            "pinataSecretKey": "fa39fbb52d14e825d0e2950400b1ed3bedef375f30b63749e8ba92832e53dc9c"
         },
         "arweave": {
             "keyfilePath": "/Users/Shared/arweave-keyfile.json"
         }
     },
     "candymachine": {
-        "cmPublicKey": "",
-        "cmPrivateKey": ""
+        "cmPublicKey": "0x12f041c8e3b4aead814f4decd45e5db1cabe8293f332e66568bdd9274ba76c11",
+        "cmPrivateKey": "0x98a44b6d06576ebf68e5fb79a960059b2dd735fca58ea273bf7d21c4363c56ab"
     },
     "collection": {
-        "assetDir": "/Aptos-NFT-Mint/images",
-        "metadataDir": "/Aptos-NFT-Mint/metadata",
+        "assetDir": "../../images",
+        "metadataDir": "../../metadata",
         "collectionName": "GitchainCollection",
         "collectionDescription": "This is my nft rewards collection",
-        "collectionCover": "https://cloudflare-ipfs.com/ipfs/QmWHRdp9svU916CMBicNnFn8CZbYHKV5CK9fcrRteNVJMz",
+        "collectionCover": "https://cloudflare-ipfs.com/ipfs/Qmf1rv2WN9Nw4FuSsZYZ3pchmXPSK8GsRX53QJYWJjCoef",
         "collectionSize": 10,
         "maxMintPerWallet": 100,
         "mintFee": 0,
@@ -27,6 +27,6 @@
         "royalty_points_numerator": 60,
         "presaleMintTime": 0,
         "publicMintTime": 0,
-        "whitelistDir": "../../"
+        "whitelistDir": "../../whitelist.txt"
     }
 }
